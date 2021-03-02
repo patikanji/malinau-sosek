@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "malinau-sosek",
+  "description": "Aplikasi Sosek Mentarang",
+  "version": "1.0.0",
+  "author": "Arif Muslax <muslax@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-serve": "^1.0.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^6.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "autoprefixer": "^10.2.1",
+    "electron": "^11.1.1",
+    "next": "^10.0.5",
+    "nextron": "^6.0.2",
+    "postcss": "^8.2.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

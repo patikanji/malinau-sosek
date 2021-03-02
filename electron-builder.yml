@@ -1,0 +1,12 @@
+appId: muslax.malinau.sosek.enumerator
+productName: Malinau Project - Sosek Data Tool
+copyright: Copyright © 2021 Arif Muslax
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

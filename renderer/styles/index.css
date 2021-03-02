@@ -1,0 +1,42 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+html,
+body {
+
+}
+
+/* Write your own custom component styles here */
+.btn-blue {
+  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600;
+}
+pre {
+  font-size: .7rem;
+}
+
+.wrapper {
+  position: fixed;
+  top: 2.75rem;
+  bottom: 3rem;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.wrapper-no-footer {
+  position: fixed;
+  top: 2.75rem;
+  bottom: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
